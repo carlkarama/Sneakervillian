@@ -1,0 +1,106 @@
+/* Created by Carl Karama for Utopian Societies */
+
+/* Section design */
+.productPage {
+  width: auto;
+  float: left;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+}
+
+/* Vertical line */
+.cart-info hr {
+  top:190px;
+  width: 3px;
+  border: none;
+  height: 60vh;
+  margin: 15px;
+  left: 380px;
+  color: #FEC221;
+  position: absolute;
+  padding-left: 10px;
+  border-left: 1px solid hsla(200, 10%, 50%,100);
+}
+
+/* Item label */
+.lblsizes p {
+  color: black;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 3px;
+  position: absolute;
+}
+
+/* Quantity lbl */
+.lblquantity p {
+  color: black;
+  text-align: left;
+  padding-left: 3px;
+  margin-top: 135px;
+  position: absolute;
+}
+
+
+/* Read more lbl */
+.mybody p {
+  top: 90px;
+  color: black;
+  float: left;
+  margin-top: 50px;
+  margin-left: 95px;
+  font-size: 12px;
+}
+
+/* Item Size buttons */
+.size-icons a {
+  float: left;
+  color: black;
+  padding: 10px;
+  font-size: 12px;
+  margin-top: 50px;
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+.size-icons a:active {
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.size-icons {
+  /* margin: 50px;
+  padding: 10px; */
+}
+
+/* Position all items on right of hr */
+.manage-order {
+  width: 400px;
+  height: 498px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* background-color: #555758; */
+}
+
+/* Add to cart btn */
+.add-to-cartbtn a {
+  top: 82%;
+  left: 30%;
+  width: 6.5%;
+  color: #4caf50;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  background: none;
+  margin-left: 130px;
+  border-radius: 3px;
+  margin-right: 25px;
+  position: absolute;
+  text-decoration: none;
+  border: 1px solid black;
+}

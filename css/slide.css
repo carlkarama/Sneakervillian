@@ -1,0 +1,102 @@
+.myslide {
+	top: 20%;
+	left: 10%;
+	width: 1150px;
+	height: 359px;
+	margin-top: 10%;
+	border: 3px solid;
+	position: relative;
+	border-color: black;
+}
+
+slider {
+	/* z-index: 6; */
+	display: block;
+	position: absolute;
+}
+
+slider > * {
+	display: block;
+	overflow: hidden;
+	padding-left: 15%;
+	padding-right: 10%;
+	position: absolute;
+	/* animation: slide 12 infinite; */
+}
+
+slide:nth-child(1) {
+
+	position: absolute;
+	padding-left: 10px;
+	margin: 15px;
+	/* animation-delay: -1s; */
+	/* background: url('../images/banners/shoes/1.png'); */
+}
+
+slide:nth-child(2) {
+	width: 2145px;
+	height: 280px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/* animation-delay: 2s; */
+	/* background-image: url("../images/banners/shoes/2.png"); */
+}
+
+slide:nth-child(3) {
+	width: 2145px;
+	height: 280px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/* animation-delay: 5s; */
+	/* background-image: url("../images/banners/shoes/3.png"); */
+}
+
+slide:nth-child(4) {
+	width: 2145px;
+	height: 280px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/* animation-delay: 7s; */
+	/* background-image: url("../images/banners/shoes/4.png"); */
+}
+
+@keyframes slide {
+	0% {
+		left: 100%;
+		width: 100%;
+	}
+
+	5% {
+		left: 0%;
+	}
+
+	25% {
+		left: 0%;
+	}
+
+	30% {
+		left: -100%;
+		width: 100%;
+	}
+
+	30.0001% {
+		left: -100%; 
+		width: 0%;
+	}
+
+	100% {
+		left: 100%;
+		width: 0%;
+	}
+}
+
+/* 
+@keyframes Slide_Up {
+	0% {
+		transform: translateY(250px);
+	}
+
+	100% {
+		transform: translateX(0)
+	}
+} */

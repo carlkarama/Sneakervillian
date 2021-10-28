@@ -1,0 +1,70 @@
+/* This page is for the homepage design. Created by Carl Karama Thur 26th April 2018 10:53am */
+/* Style the video: 100% width and height to cover the entire window */
+
+body {
+      font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial;
+      font-size: 17px;
+      font-weight: lighter;
+      box-sizing: border-box;
+  }
+
+.nav {
+    position: relative;
+  }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.center {
+    z-index: 1;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: lighter;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: orange;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    color: #CCFFFF;
+}
+
+
+#myBtn {
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #CCFFFF;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border-spacing: 10px;
+}
+
+#myBtn:link, #myBtn:visited {
+
+}
+
+#myBtn:hover, #myBtn:active {
+    background: #ddd;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: orange;
+    border-radius: 5px;
+    border-spacing: 10px;
+}

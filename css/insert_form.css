@@ -1,0 +1,57 @@
+/* Site Created by Carl Karama */
+body {
+	background-color: #98CAEC;
+}
+
+.myfieldset {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	/*transition: all 4s ease-in-out;*/
+}
+
+.mysearch {
+  position: float;
+  float: left;
+}
+
+input {
+	font-size: 17px;
+	margin: 20px 0;
+	height: 30px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: rgba(0,0,0,0);
+	outline-style: none;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+#msg {
+	margin-top: 20px;
+	width: 100%;
+	border: none;
+	font-size: 17px;
+	outline-style: none;
+	background: transparent;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+::-webkit-input-placeholder {
+	color: #EAEAEA;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+a {
+	padding: 20px 32px;
+	font-size: 16px;
+	background: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 30px;
+	outline-style: none;
+}

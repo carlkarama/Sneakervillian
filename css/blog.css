@@ -1,0 +1,244 @@
+/* Created by Carl Karama */
+
+body {
+      /* background: url(1.jpg) center center no-repeat; */
+      background-size: cover;
+      background-color: #38758c;
+      z-index: -1;
+}
+
+.letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8 {
+       font-size: 300px;
+
+}
+
+.letter1 {
+      position: absolute;
+      top: 31%;
+      left: 7%;
+      z-index: -1;
+      width: 360px;
+      height: 640px;
+      font-size: 300px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url('./stockImages/16.jpg'); /* C:\xampp\htdocs\PHP\Project\Stage 1\ck */
+}
+
+.letter1 a {
+  margin-top: 5%;
+}
+
+#letter_1 a {
+  color: #D3D3D3;
+  top: 5%;
+  font-size: 20px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-color: none;
+  border-style: none;
+  background-color: none;
+}
+
+#letter_1 a:hover {
+  background-color: none;
+  border-style: none;
+  color: orange;
+  text-decoration: none;
+  outline: none;
+}
+
+.letter2 {
+      position: absolute;
+      top: 0;
+      left: 20%;
+      z-index: -1;
+      width: 720px;
+      height: 1280px;
+      /* background-image: url('2016-10-12 02.40.35 1358790194577258332_510990121.jpg'); */
+}
+
+.letter3 {
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      z-index: -1;
+      width: 720px;
+      height: 1280px;
+      /* background-image: url('2016-06-12 05.56.42 1270496464375769783_510990121.jpg'); */
+}
+
+.letter4 {
+      position: absolute;
+      top: 80%;
+      left: 80%;
+      z-index: -1;
+      width: 720px;
+      height: 1280px;
+      /* background-image: url('2016-05-17 13.01.23 1251866048655911566_510990121.jpg'); */
+}
+
+.letter5 {
+      position: absolute;
+      top: 120%;
+      left: 7%;
+      width: 720px;
+      height: 1280px;
+      background-size: contain;
+      background-image: url('./stockImages/10.jpg');
+}
+
+#letter_5 a:link, a:visited {
+  color: #D3D3D3;
+  margin-top: 0;
+  border-style: none;
+  text-decoration: none;
+  background-color: none;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* #letter_5 a:hover {
+  background-color: none;
+  border-style: none;
+  color: orange;
+  text-decoration: none;
+  outline: none;
+} */
+
+.letter6 {
+      position: absolute;
+      top: 130%;
+      left: 20%;
+      z-index: -1;
+      width: 720px;
+      height: 1280px;
+      /* background-image: url('2016-05-17 13.01.23 1251866048655911566_510990121.jpg'); */
+}
+
+.letter7 {
+      position: absolute;
+      top: 220%;
+      left: 60%;
+      width: 720px;
+      height: 1280px;
+      background-size: contain;
+      background-image: url('./stockImages/15.jpg');
+      background-repeat: no-repeat;
+}
+
+#letter_7 a {
+  color: #D3D3D3;
+  margin-top: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-color: none;
+  border-style: none;
+  background-color: none;
+}
+
+#letter_7 a:hover {
+  background-color: none;
+  border-style: none;
+  color: orange;
+  text-decoration: none;
+  outline: none;
+
+}
+
+.letter8 {
+      position: absolute;
+      top: 250%;
+      left: 10%;
+}
+
+.box1 {
+      background: #45859e;
+      height: 400px;
+      width: 800px;
+      position: absolute;
+      top: 30%;
+      right: 2%;
+}
+
+/*.box1 a:visited, a:hover, a:active, a:link {
+      border: none;
+      text-decoration: none;
+}*/
+
+.box1 h1 {
+      text-align: center;
+}
+
+.box1 p {
+      position: absolute;
+      padding: 10px;
+      padding-top: 2px;
+}
+
+.box1 a:link, a:visited {
+      border: none;
+      padding: none;
+      border-radius: none;
+      background-color: none;
+      background-color: rgba(0, 0, 0, 0.0);
+}
+
+.box2 p {
+      position: absolute;
+      padding: 10px;
+      padding-top: 2px;
+}
+
+.box2 h1 {
+      text-align: center;
+}
+
+
+.box2 {
+      background: #45859e;
+      z-index: 1;
+      height: 400px;
+      width: 600px;
+      position: absolute;
+      top: 106%;
+      right: 0%;
+}
+
+.box3 {
+      /* background:  none; */
+      height: 400px;
+      width: 1000px;
+      position: absolute;
+      top: 100%;
+      left: 12%;
+}
+
+.box4 {
+      /* background: #21404c; */
+      height: 400px;
+      width: 600px;
+      position: absolute;
+      top: 160%;
+      left: 50%;
+}
+
+.box5 {
+      background: #45859e;
+      height: 400px;
+      width: 800px;
+      position: absolute;
+      top: 210%;
+      left: 4%;
+}
+
+.box5 h1 {
+      text-align: center;
+}
+
+.box5 p {
+      position: absolute;
+      padding: 10px;
+      padding-top: 2px;
+}
